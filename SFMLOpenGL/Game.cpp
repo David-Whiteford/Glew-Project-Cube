@@ -297,13 +297,13 @@ void Game::keyInputs()
 			vertex[i].coordinate[2] = vec.z;
 		}
 
-	}
+	}/*
 	for (int i = 0; i < 36; i++)
 	{
 		finalVert[i] = vertex[i];
 		finalVert[i].coordinate[0] += translation.x;
 		finalVert[i].coordinate[1] += translation.y;
-	}
+	}*/
 
 }
 void Game::points()
@@ -335,7 +335,7 @@ void Game::points()
 	vertex[5].coordinate[1] = 0.5f;
 	vertex[5].coordinate[2] = -0.5f;
 
-	vertex[6].coordinate[0] = 0.5f;
+	/*vertex[6].coordinate[0] = 0.5f;
 	vertex[6].coordinate[1] = -0.5f;
 	vertex[6].coordinate[2] = 0.5f;
 
@@ -453,6 +453,152 @@ void Game::points()
 
 	vertex[35].coordinate[0] = 0.5f;
 	vertex[35].coordinate[1] = -0.5f;
-	vertex[35].coordinate[2] = 0.5f;
+	vertex[35].coordinate[2] = 0.5f;*/
+
+	/*vertex[0].color[0] = 0.1f;
+	vertex[0].color[1] = 0.1f;
+	vertex[0].color[2] = 0.1f;
+
+	vertex[1].color[0] = 0.1f;
+	vertex[1].color[1] = 0.1f;
+	vertex[1].color[2] = 0.1f;
+
+	vertex[2].color[0] = 0.1f;
+	vertex[2].color[1] = 0.1f;
+	vertex[2].color[2] = 0.1f;
+
+	vertex[3].color[0] = 0.1f;
+	vertex[3].color[1] = 0.1f;
+	vertex[3].color[2] = 0.1f;
+
+	vertex[4].color[0] = 0.1f;
+	vertex[4].color[1] = 0.1f;
+	vertex[4].color[2] = 0.1f;
+
+	vertex[5].color[0] = 0.1f;
+	vertex[5].color[1] = 0.1f;
+	vertex[5].color[2] = 0.1f;
+
+	vertex[6].color[0] = 0.1f;
+	vertex[6].color[1] = 0.1f;
+	vertex[6].color[0] = 0.1f;
+
+	vertex[7].color[0] = 0.1f;
+	vertex[7].color[1] = 0.1f;
+	vertex[7].color[0] = 0.1f;
+
+	vertex[8].color[0] = 0.1f;
+	vertex[8].color[1] = 0.1f;
+	vertex[8].color[0] = 0.1f;
+
+	vertex[9].color[0] = 0.1f;
+	vertex[9].color[1] = 0.1f;
+	vertex[9].color[0] = 0.1f;
+
+	vertex[10].color[0] = 0.1f;
+	vertex[10].color[1] = 0.1f;
+	vertex[10].color[0] = 0.1f;
+
+
+
+	vertex[11].color[0] = 0.1f;
+	vertex[11].color[1] = 0.1f;
+	vertex[11].color[2] = 0.1f;
+
+	vertex[12].color[0] = 0.1f;
+	vertex[12].color[1] = 0.1f;
+	vertex[12].color[2] = 0.1f;
+
+	vertex[13].color[0] = 0.1f;
+	vertex[13].color[1] = 0.1f;
+	vertex[13].color[2] = 0.1f;
+
+	vertex[14].color[0] = 0.1f;
+	vertex[14].color[1] = 0.1f;
+	vertex[14].color[2] = 0.1f;
+
+	vertex[15].color[0] = 0.1f;
+	vertex[15].color[1] = 0.1f;
+	vertex[15].color[2] = 0.1f;
+
+	vertex[16].color[0] = 0.1f;
+	vertex[16].color[1] = 0.1f;
+	vertex[16].color[0] = 0.1f;
+
+	vertex[17].color[0] = 0.1f;
+	vertex[17].color[1] = 0.1f;
+	vertex[17].color[0] = 0.1f;
+
+	vertex[18].color[0] = 0.1f;
+	vertex[18].color[1] = 0.1f;
+	vertex[18].color[0] = 0.1f;
+
+	vertex[19].color[0] = 0.1f;
+	vertex[19].color[1] = 0.1f;
+	vertex[19].color[0] = 0.1f;
+
+	vertex[20].color[0] = 0.1f;
+	vertex[20].color[1] = 0.1f;
+	vertex[20].color[0] = 0.1f;
+
+	vertex[21].color[0] = 0.1f;
+	vertex[21].color[1] = 0.1f;
+	vertex[21].color[2] = 0.1f;
+
+	vertex[22].color[0] = 0.1f;
+	vertex[22].color[1] = 0.1f;
+	vertex[22].color[2] = 0.1f;
+
+	vertex[23].color[0] = 0.1f;
+	vertex[23].color[1] = 0.1f;
+	vertex[23].color[2] = 0.1f;
+
+	vertex[24].color[0] = 0.1f;
+	vertex[24].color[1] = 0.1f;
+	vertex[24].color[2] = 0.1f;
+
+	vertex[25].color[0] = 0.1f;
+	vertex[25].color[1] = 0.1f;
+	vertex[25].color[2] = 0.1f;
+
+	vertex[26].color[0] = 0.1f;
+	vertex[26].color[1] = 0.1f;
+	vertex[26].color[0] = 0.1f;
+
+	vertex[27].color[0] = 0.1f;
+	vertex[27].color[1] = 0.1f;
+	vertex[27].color[0] = 0.1f;
+
+	vertex[28].color[0] = 0.1f;
+	vertex[28].color[1] = 0.1f;
+	vertex[28].color[0] = 0.1f;
+
+	vertex[29].color[0] = 0.1f;
+	vertex[29].color[1] = 0.1f;
+	vertex[29].color[0] = 0.1f;
+
+	vertex[30].color[0] = 0.1f;
+	vertex[30].color[1] = 0.1f;
+	vertex[30].color[2] = 0.1f;
+
+	vertex[31].color[0] = 0.1f;
+	vertex[31].color[1] = 0.1f;
+	vertex[31].color[2] = 0.1f;
+
+	vertex[32].color[0] = 0.1f;
+	vertex[32].color[1] = 0.1f;
+	vertex[32].color[2] = 0.1f;
+
+	vertex[33].color[0] = 0.1f;
+	vertex[33].color[1] = 0.1f;
+	vertex[33].color[2] = 0.1f;
+
+	vertex[34].color[0] = 0.1f;
+	vertex[34].color[1] = 0.1f;
+	vertex[34].color[2] = 0.1f;
+
+	vertex[35].color[0] = 0.1f;
+	vertex[35].color[1] = 0.1f;
+	vertex[35].color[2] = 0.1f;*/
 	
 }
